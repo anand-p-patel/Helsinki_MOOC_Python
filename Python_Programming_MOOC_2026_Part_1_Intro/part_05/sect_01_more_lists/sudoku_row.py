@@ -10,6 +10,15 @@
 
 
 
+#def row_correct(sudoku: list, row_no: int):
+#    seen_numbers = []
+#    for number in sudoku[row_no]:
+#        if number > 0 and number in seen_numbers:
+#            return False
+#        seen_numbers.append(number)    
+#    return True
+
+
 
 def row_correct(sudoku: list, row_no: int):
     row = sudoku[row_no]
